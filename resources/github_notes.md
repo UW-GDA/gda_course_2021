@@ -59,3 +59,22 @@ In dire circumstances, just post the notebook on Slack channel
 A good teaching moment.
 The issue resolves itself within ~24 hours, students can use their fork or clone the assignment repo, then copy working notebook
 
+# Git workflows
+
+## Basic with remote 
+```
+git pull
+git add myfile.py
+git commit -m 'Added myfile.py'
+git push
+```
+## Basic branching 
+https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
+```
+git checkout -b newbranch
+git add .
+git commit -m 'Made some changes'
+git checkout main
+git merge newbranch
+git checkout -d newbranch
+```
