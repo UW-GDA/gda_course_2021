@@ -16,7 +16,7 @@ We are going to “flip the classroom” for the first two weeks. Before class, 
 * Attempt to log on to the course Jupyterhub: https://rttl.axdd.s.uw.edu/2021-winter-cee-498-d
     * This is the computing environment we will use for the quarter
     * We will review this interface as a group during lab, but feel free to start exploring
-    * If you have trouble logging in
+    * If you have trouble logging in, send a message to the #it_help channel on Slack
     * To bring up a terminal to use for the shell and git exercises:
         1. Click the "+" icon in the upper left corner to bring up the Launcher
         2. Under "Other" click on the Terminal icon.
