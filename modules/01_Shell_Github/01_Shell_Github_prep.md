@@ -10,9 +10,9 @@ Please quickly read through this entire document once, then go back and start ta
 We are going to “flip the classroom” for the first two weeks. Before class, you will be responsible for reviewing material from external resources. Consider this your week 1 homework. During our Friday meetings, I will briefly review some of this material and do an interactive demo, we will discuss questions and clarify concepts as a class, and then collaboratively work on some problems/exercises to help solidify the concepts (which will inevitably lead to more questions and discussion). I think this is the best use of our limited time together.
 
 ## Logistics before first lecture
-* Review the syllabus: https://docs.google.com/document/d/1uaEMqANMU9NlvH2ELkGtALQ3MlGY1U9-uCqNKz5JOqk/edit?usp=sharing
+* Review the syllabus (restricted to UW accounts): https://docs.google.com/document/d/1uaEMqANMU9NlvH2ELkGtALQ3MlGY1U9-uCqNKz5JOqk/edit?usp=sharing
    * I’ve enabled comments on the Google Doc, so if you find any mistakes or have questions, please add comments inline, and/or come to class ready to ask questions.
-* Fill out the background questionnaire: https://forms.gle/g6od17HJ1L8wB2sq5
+* Fill out the background questionnaire (restricted to UW accounts): https://forms.gle/g6od17HJ1L8wB2sq5
    * Don't overthink this, it shouldn't take more than 5-10 minutes to fill out!
 * Complete all of the items outlined in the [Student Initial Setup](../../resources/students/student_initial_setup.md) document.
    * Reminder: send me a Slack message with your github username!
