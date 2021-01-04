@@ -11,8 +11,11 @@ We are going to “flip the classroom” for the first two weeks. Before class, 
 
 ## Logistics before first lecture
 * Review the syllabus: https://docs.google.com/document/d/1uaEMqANMU9NlvH2ELkGtALQ3MlGY1U9-uCqNKz5JOqk/edit?usp=sharing
-    * I’ve enabled comments on the Google Doc, so if you find any mistakes or have questions, please add comments inline, and/or come to class ready to ask questions.
+   * I’ve enabled comments on the Google Doc, so if you find any mistakes or have questions, please add comments inline, and/or come to class ready to ask questions.
+* Fill out the background questionnaire: https://forms.gle/g6od17HJ1L8wB2sq5
+   * Don't overthink this, it shouldn't take more than 5-10 minutes to fill out!
 * Complete all of the items outlined in the [Student Initial Setup](../../resources/students/student_initial_setup.md) document.
+   * Reminder: send me a Slack message with your github username!
 * Review the course [Code of Conduct](../../code_of_conduct.md) document. 
 * Attempt to log on to the course Jupyterhub: https://rttl.axdd.s.uw.edu/2021-winter-cee-498-d
     * This is the computing environment we will use for the quarter
@@ -48,14 +51,14 @@ Please attempt to work your way through the following lessons (make sure you att
     * http://swcarpentry.github.io/git-novice/ (~2-3 hours)
     * https://www.earthdatascience.org/courses/intro-to-earth-data-science/git-github/
 
-If all of this is new, don’t sweat it, but you will need to put in the extra time during the first three weeks of class to practice and get up to speed. This means actually typing the commands from the tutorial on your computer and reviewing the output (don’t just skim or selectively copy/paste). 
+If all of this is new, don’t sweat it, but you will need to put in the extra time during the first few weeks of class to practice and get up to speed. This means actually typing the commands from the tutorial on your computer and reviewing the output (don’t just skim or selectively copy/paste). 
 
 If you’re stuck or confused, please send a message to the #lab01_shell_git Slack channel, and David, the TA, and/or or others in the class can help you work through issues.
 
 ## Assignment: Due Friday
 * Send me a direct Slack message with your github username (do this as soon as possible)
-* Complete the above reading
-* Fill out this form: https://forms.gle/rnHSJHozvuoveP8o7
+* Complete the above reading assignment
+* Fill out this form about the reading assignment: https://forms.gle/rnHSJHozvuoveP8o7
 
 ## Outlook
 During week 2, we will review Python, iPython/Juptyer, and continue exploring the shell and git/github. There will be opportunities to continue learning all of this material throughout the course, but I want to reiterate that this is not an intro Python or intro programming class. By week 3, I’m hoping that everyone will be comfortable with the basics, and we can jump into some actual geospatial applications. With that said, I’ve intentionally kept the schedule flexible, so we can adjust as we go along - I need to calibrate after I get a better sense of everyone’s experience level.
