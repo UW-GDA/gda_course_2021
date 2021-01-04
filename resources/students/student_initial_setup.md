@@ -14,4 +14,4 @@
     * Sign up for the free/educational plan and link to your Github account
 1. If you have not already done so, please sign up for an institutional Google account using your UW email address.  I will use Google Docs for some material and Google Drive for some data distribution, and I will only enable access for UW Google accounts (not personal accounts).
 1. Install/upgrade QGIS on your computer
-    * [QGIS Notes](resources/qgis_notes.md) 
+    * [QGIS Notes](../qgis_notes.md) 
