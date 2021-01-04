@@ -13,6 +13,7 @@ We are going to “flip the classroom” for the first two weeks. Before class, 
 * Review the syllabus: https://docs.google.com/document/d/1uaEMqANMU9NlvH2ELkGtALQ3MlGY1U9-uCqNKz5JOqk/edit?usp=sharing
     * I’ve enabled comments on the Google Doc, so if you find any mistakes or have questions, please add comments inline, and/or come to class ready to ask questions.
 * Complete all of the items outlined in the [Student Initial Setup](../../resources/students/student_initial_setup.md) document.
+* Review the course [Code of Conduct](../../code_of_conduct.md) document. 
 * Attempt to log on to the course Jupyterhub: https://rttl.axdd.s.uw.edu/2021-winter-cee-498-d
     * This is the computing environment we will use for the quarter
     * We will review this interface as a group during lab, but feel free to start exploring

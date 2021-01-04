@@ -77,6 +77,7 @@ https://docs.google.com/document/d/1uaEMqANMU9NlvH2ELkGtALQ3MlGY1U9-uCqNKz5JOqk/
 
 * Students report ~6-12 hours outside of the 3-hour lab required to complete reading and homework
 * See weekly workflow document in instructor and student [resources](resources) for technical details
+
 #### [Final Project](resources/project/README.md)
 * Students propose, refine, perform and present independent or group projects
 * Final deliverables: Github repository and ~10 minute presentation
