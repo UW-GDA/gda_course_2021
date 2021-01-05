@@ -32,15 +32,15 @@ I recommend that you break these lessons up into a few sessions, so you have som
 Please attempt to work your way through the following lessons (make sure you attempt some of the relevant examples!):
 
 ### 1. Background
-* Chapter 1 of Introduction to Earth Data Science Textbook: https://www.earthdatascience.org/courses/intro-to-earth-data-science/open-reproducible-science/
+* Chapter 1 of Introduction to Earth Data Science Textbook: https://www.earthdatascience.org/courses/intro-to-earth-data-science/open-reproducible-science/ (~30 min)
     * This is a fantastic set of resources prepared by the Earth Lab at CU Boulder. Feel free to explore this textbook and other resources on the site. We will cover many of these concepts throughout the quarter.
     * While the sections on Jupyter contain some great background, several of the sections on local setup and the jupyter notebook interface are irrelevant, as we're using a shared Jupyterhub environment with everything ready to go (you're welcome!) and the more powerful/flexible Jupyter lab interface.
 
 ### 2. Unix shell
-* Chapter 2 of Introduction to Earth Data Science Textbook: https://www.earthdatascience.org/courses/intro-to-earth-data-science/open-reproducible-science/bash/
 * Software Carpentry: http://swcarpentry.github.io/shell-novice/ (~2-4 hours). 
     * You don’t need to master all of this material, but you need to know the basics (navigating the filesystem, previewing/editing text files, basic for loops and conditionals). Please try to read through most of the lessons and do some interactive exploration on your own.
     * If you already feel very comfortable with the shell, and the beginner material is too basic, spend some time working through the intermediate lesson: https://carpentries-incubator.github.io/shell-extras/.  
+* Chapter 2 of Introduction to Earth Data Science Textbook: https://www.earthdatascience.org/courses/intro-to-earth-data-science/open-reproducible-science/bash/
 
 ### 3. Git and Github
 * You will need to be comfortable with basic git functionality (`clone`, `add`, `commit`, `push`), and will need more advanced functionality later in the quarter. 
