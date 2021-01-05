@@ -40,7 +40,7 @@ Please attempt to work your way through the following lessons (make sure you att
 * Chapter 2 of Introduction to Earth Data Science Textbook: https://www.earthdatascience.org/courses/intro-to-earth-data-science/open-reproducible-science/bash/
 * Software Carpentry: http://swcarpentry.github.io/shell-novice/ (~2-4 hours). 
     * You don’t need to master all of this material, but you need to know the basics (navigating the filesystem, previewing/editing text files, basic for loops and conditionals). Please try to read through most of the lessons and do some interactive exploration on your own.
-    * If you already feel very comfortable with the shell, and the beginner material is too basic, spend some time working through the intermediate lesson: http://swcarpentry.github.io/shell-extras/.  
+    * If you already feel very comfortable with the shell, and the beginner material is too basic, spend some time working through the intermediate lesson: https://carpentries-incubator.github.io/shell-extras/.  
 
 ### 3. Git and Github
 * You will need to be comfortable with basic git functionality (`clone`, `add`, `commit`, `push`), and will need more advanced functionality later in the quarter. 
