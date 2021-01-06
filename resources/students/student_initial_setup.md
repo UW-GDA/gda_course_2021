@@ -9,7 +9,7 @@
     * I will distribute materials/assignments using Github Classroom, which will be linked to your Github account.
     * If all of this is new, don’t worry, we will walk through basic workflows during the first lecture/lab, and you will become more familiar in the coming weeks.
     * I recommend you apply for the free edu account upgrade (https://education.github.com/discount_requests/new), which will allow you to create unlimited number of private repos with unlimited collaborators.
-1. Sign up for a ReviewNB account: https://www.reviewnb.com/
+1. ~~Sign up for a ReviewNB account: https://www.reviewnb.com/~~ (Note Jan 5, 2021: ReviewNB was enabled for the UW-GDA organization, so individual activation should not be necessary)
     * This is what we will use for interactive, inline discussion on notebooks that you submit
     * Sign up for the free/educational plan and link to your Github account
 1. If you have not already done so, please sign up for an institutional Google account using your UW email address.  I will use Google Docs for some material and Google Drive for some data distribution, and I will only enable access for UW Google accounts (not personal accounts).
