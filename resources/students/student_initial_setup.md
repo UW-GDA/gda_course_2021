@@ -13,5 +13,5 @@
     * This is what we will use for interactive, inline discussion on notebooks that you submit
     * Sign up for the free/educational plan and link to your Github account
 1. If you have not already done so, please sign up for an institutional Google account using your UW email address.  I will use Google Docs for some material and Google Drive for some data distribution, and I will only enable access for UW Google accounts (not personal accounts).
-1. Install/upgrade QGIS on your computer
+1. Optional: Install/upgrade QGIS on your computer
     * [QGIS Notes](../qgis_notes.md) 
