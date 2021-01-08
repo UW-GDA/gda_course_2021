@@ -17,6 +17,7 @@
     * Private 
     * Initialize with README.md
     * Add .gitignore for Python
+1. Go to Settings and select checkbox for "Template repository"
 1. Clone the repo to local or Jupyterhub (wherever student notebook was prepared)
 1. Add the student notebook(s), sample data, and any other relevant files
     1. git add, commit, push
@@ -34,14 +35,14 @@
     * Select "Import starter code using source importer" (haven't tried template option)
 1. Don't select deadline (set this on Canvas)
 1. Don't Grant admin repo access
-1. Enable feedback pull requests
-    * Untested, did this for Week10, and students could not see markdown files in thier accepted assignment repo
+1. Check "Enable feedback pull requests"
+    * This will create `feedback` branch and automatically open a PR that can be used to comment on their submitted files
 
 ## Create Canvas assignment
 #### First Week
 * Type: Assignment
 * Name: 02_Python_Core_Packages
-* Due: midnight no the following Friday
+* Due: midnight on the following Friday
 * Points: 20
 * More Options:
 > Accept the github assignment here: [insert assignment invitation url]. When completed, submit the url to your repo here on canvas.
@@ -50,7 +51,7 @@
 
 #### Subsequent Weeks
 * Duplicate previous assignment
-    * Udpdate Name
+    * Update Name
     * Update Assignment url
     * Update Due Date
 
@@ -88,6 +89,7 @@ During class:
     * If not, send message on Slack
 
 ### Github
+** Note: This is no longer necessary if using the Github Classroom "Enable feedback pull requests" option **
 * Github Pull Request workflow:
     * If feedback branch does not exist:
         * Click on "commits" header
