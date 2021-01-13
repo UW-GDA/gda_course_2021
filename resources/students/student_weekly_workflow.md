@@ -41,6 +41,10 @@
 1. Instructor/TA will review the changes you made (summarized in the Pull Request) and add inline comments/discussion.
 1. If your submission is a Jupyter notebook, cell-level comments will be added using ReviewNB
 1. Final grade assigned via Canvas
+1. Instructor/TA will post solutions to https://github.com/UW-GDA/gda_course_2021_solutions
+   * These are meant to be used as a "read-only" reference for you to review after turning in your assignment
+   * They represent one set of solutions, and they are not necessarily the most elegant, efficient or best solutions. 
+   * There are always going to be several ways to solve these problems, and rarely a “right” answer.
 
 ### 5. Reviewing instructor feedback
 1. Open your assignment repo on Github
