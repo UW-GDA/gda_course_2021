@@ -26,7 +26,8 @@ As with the week 1 assignment, don’t wait until Friday morning to start.  This
 * Work through the notebooks, taking some time to experiment along the way (don’t just shift-Enter without reading text or absorbing concepts)
     * Can skip sections on Python installation and conda - we’ve taken care of this with the class Jupyterhub setup, and we will revisit conda later in the quarter
     * Note that we are exclusively using Python3 in this class (but good to know about potential issues with Python2 compatibility)
-    * If you’re short on time (or feeling overwhelmed), you can skip sections 09, 12 and 14 
+    * If you’re short on time (or feeling overwhelmed), you can skip sections 09 (Errors and Exceptions), 12 (Generators and Generator Expressions) and 14 (Strings and Regular Expressions)
+      * Note: chapter numbers in the book vs. the interactive notebooks are slightly different
 * Note that you can also view rendered versions of the notebooks on the original github page, but please take advantage of the interactive notebooks - try changing some things and rerunning
 
 ### 2. iPython and Jupyter Notebooks (~1-2 hours)
