@@ -23,10 +23,19 @@ You have multiple options:
 
 ### Week 3: Project Idea Pitches
 * Develop a short, 1-minute pitch/summary of project idea(s)
-* Come to class ready to share your idea(s) in small groups
-* Send your summary to the instructor on Slack
-    * Instructor will provide feedback
-    * Instructor will compile a list and attempt to facilitate group formation around similar project ideas
+* Come to class ready to share your idea(s) in small groups and provide feedback to others
+* If you see potential opportunities to work with other students, follow up with them on Slack!
+
+### Week 4: Submit Short Summary
+* Send a direct message on Slack to the instructor and TA containing a short summary of your project
+    * Instructor/TA will provide feedback
+    * Instructor/TA will compile a list and attempt to facilitate group formation around similar project ideas
+
+### Week 5: Refine Project Idea
+* Come to class ready to share your refined idea(s) in small groups and provide feedback to others
+* If you see potential opportunities to work with other students, follow up with them on Slack!
+* For group projects, start discussing next steps with your team, defining roles, dividing tasks
+* Start preparing more detailed project outline (see below)
 
 ### Week 6: Repo and Project Outline 
 #### Create a Github repository
@@ -34,7 +43,7 @@ Create a new private repo for your project within the GDA organization (can move
 
 When you initialize, select to include a README.md and include a .gitignore for Python.
 
-Don’t stress too much about the specifics of the repo - these are not permanent, and you can always change repo names, or start over entirely (just copy and add existing files in the first commit). One of the goals here is to gain more experience using git (potentially for collaborative work), and you’re inevitably going to make some mistakes along the way.
+Don’t stress too much about the specifics of the repo - these are not permanent, and you can always change repo names, or start over entirely (just copy and add existing files as a first commit). One of the goals here is to gain more experience using git (potentially for collaborative work), and you’re inevitably going to make some mistakes along the way. Best to do it here, where stakes are pretty low.
 
 If you’ve decided to do a group project, pick someone to initiate and manage the repo, add each other as collaborators, and make sure all can access and commit to the repo. Send me with a direct message on Slack (including everyone on the project), so I can help make sure all of the permissions are set up correctly. 
 
@@ -58,17 +67,19 @@ That may sound like a lot, but some of these items should only be 1-2 sentences,
 
 ### Weeks 7-10: Do the project!
 * Start early!
+* Create subdirectories in your repo to store:
+   * notebooks
+   * data (if applicable) - make sure filesize (<20 MB) and total number of files (<20) is limitied.
+   * doc (if applicable) for any additional documentation, static images you want to include in notebooks or markdown files, etc.
+* Start adding and developing notebooks, code, markdown files, etc.
 * Start with limited test case(s) for initial development and exploration:
    * Extract a small region of a large raster
    * If you need the entire raster, start with a downsampled version, then when you're happy with methods, run for native resolution
-   * Start with a subset of timesteps for time series analysis
-* Create subdirectories in your repo to store:
-   * notebooks
-   * data (if applicable) - make sure filesize and total number of files is limitied
-   * doc (if applicable) for any additional documentation, static images you want to include in notebooks or markdown files, etc.
-* Start adding and developing notebooks, code, markdown files, etc.
-    * Don’t add huge files (files >20 MB usually don't belong in a Github repo)
-    * You can store large files on the Jupyterhub, or even better, host externally and fetch dynamically for analysis
+   * Start with a single timestep or subset of timesteps for time series analysis
+* Data storage
+    * Ideally, develop reproducible workflows that dynamically fetch and process data stored on centralized public data centers (e.g., AWS S3, NSIDC, CUAHSI)
+    * If necessary, you can store files on the Jupyterhub, or even better, host externally and fetch dynamically for analysis
+    * Don’t add unnecessary files to your repo (careful with `git add .`)
     * We'll discuss some options during labs later in the quarter
 * Commit early, commit often
 
@@ -97,12 +108,16 @@ Also, you all know each other by now, and you know that this is a friendly, open
     * Can use README, notebooks, or separate markdown to summarize methods, results, conclusions, lessons learned and future work
 * Submit the Github url for your final project repo on Canvas before midnight on Friday of final exam week
 
-## Sample project ideas
+## Sample project ideas and datasets
 Please review several examples from previous years in the UW GDA Github organization.
 
-Can also search the web for public datasets. Here are some examples for Seattle and federal data sources:
-https://data-seattlecitygis.opendata.arcgis.com/
-https://www.seattle.gov/utilities/services/gis/frequently-requested-data
-https://catalog.data.gov/dataset?metadata_type=geospatial
+Search the web for public datasets:
+* https://registry.opendata.aws/
+* https://cloud.google.com/storage/docs/public-datasets
 
 WA DNR Lidar portal: https://lidarportal.dnr.wa.gov/
+
+Here are some examples for Seattle and federal data sources:
+* https://data-seattlecitygis.opendata.arcgis.com/
+* https://www.seattle.gov/utilities/services/gis/frequently-requested-data
+* https://catalog.data.gov/dataset?metadata_type=geospatial
