@@ -19,9 +19,10 @@ As with the previous homework assignments, don’t wait until Friday morning to 
 ### Python Data Science Handbook: NumPy, Pandas and Matplotlib (~2-6 hours)
 * Review the following sections of Jake Vanderplas’ “Python Data Science Handbook”
 https://jakevdp.github.io/PythonDataScienceHandbook/:  
-   2. **Introduction to NumPy**  
-   3. **Data Manipulation with Pandas**  
-   4. **Visualization with Matplotlib**  
+   * **2. Introduction to NumPy**  
+   * **3. Data Manipulation with Pandas**  
+   * **4. Visualization with Matplotlib**  
+      * Skip the section on "Geographic Data with Basemap" as this is largely outdated in 2021
 * You should have cloned into your Week 02 directory
     * If not, see the Week 2 instructions
 * Work through some of the interactive examples, and explore new concepts (don't just shift-Enter as quickly as possible)
