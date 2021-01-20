@@ -15,6 +15,7 @@
 ## Submitting Completed Assignments
 
 ### 1. Prepare Jupyter notebook for submission
+* Include your name and date at top of notebook, please don't submit your homework as David Shean :)
 * Replace `%matplotlib widget` with `%matplotlib inline`
 * From the top menu, click Kernel -> Restart Kernel and Run all Cells…
 * Your figures are now statically rendered jpg and will be embedded in the notebook for review/grading
