@@ -18,13 +18,14 @@ As with the previous homework assignments, don’t wait until Friday morning to 
 
 ### Python Data Science Handbook: NumPy, Pandas and Matplotlib (~2-6 hours)
 * Review the following sections of Jake Vanderplas’ “Python Data Science Handbook”
-https://jakevdp.github.io/PythonDataScienceHandbook/:  
-   * **2. Introduction to NumPy**  
-   * **3. Data Manipulation with Pandas**  
+https://jakevdp.github.io/PythonDataScienceHandbook/. You should have previously cloned on the Jupyterhub in a Week 02 directory (see Week 02 instructions). Get through what you can, but if you're feeling overwhelmed or pressed for time, try to at least work through the first half of each section, which should cover most basic functionality.  
+   * **2. Introduction to NumPy**
+      * Can skip section on Structured Arrays (we'll use Pandas)
+   * **3. Data Manipulation with Pandas**
+      * If new to Pandas, can skip section on Hierarchical Indexing, Pivot Tables and High-performance Pandas
    * **4. Visualization with Matplotlib**  
       * Skip the section on "Geographic Data with Basemap" as this is largely outdated in 2021
-* You should have cloned into your Week 02 directory
-    * If not, see the Week 2 instructions
+      * Can skip Customizing Matplotlib: Configurations and Stylesheets
 * Work through some of the interactive examples, and explore new concepts (don't just shift-Enter as quickly as possible)
 * The section on Machine Learning with Scikit-Learn is also great, but not required for this course
 
@@ -39,3 +40,11 @@ https://jakevdp.github.io/PythonDataScienceHandbook/:
     * Spend some time this week thinking about potential project ideas
     * Come prepared on Friday to discuss ideas during breakouts with other students
 * Finish and turn in the lab exercises from last week (due midnight on Friday)
+
+## Other Resources
+* Feel free to search for "learn NumPy" or "learn Pandas" as there are many excellent resources on the web
+* Below are the "quickstart" versions offered by each project:
+  * https://numpy.org/doc/stable/user/quickstart.html
+  * https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html
+  * https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf
+  * https://matplotlib.org/tutorials/introductory/pyplot.html
