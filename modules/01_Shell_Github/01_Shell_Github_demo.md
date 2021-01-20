@@ -22,6 +22,7 @@ David Shean
     ```
 2. Pick a text editor
     * Discuss text editors, pick one for command line, or use Jupyterlab text editor
+    * https://web.stanford.edu/class/cs107/resources/editors
 3. Edit `README.md` and add your name
 4. Commit the change
 ```
@@ -43,7 +44,12 @@ git status
 * `git pull`
 * `git log`
 
-# Add a new script to the repo
+# Add a new file to the repo
+
+### Create a new text file
+* `nano git_reflections.txt`
+* Add some text "Git is ..."
+* Follow above add, commit, push
 
 ### Create a new text file
 * Discuss extensions (.sh vs. .txt or .py)
@@ -105,6 +111,10 @@ git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(
 * https://stackoverflow.com/questions/572549/difference-between-git-add-a-and-git-add
 * Tab completion
 * Shell history (use up arrow)
+* du and df
+* top and ps
+* ssh and scp
+* tmux and screen
 * Discuss filesystem
     * Output from `which ls`
     * Go to /
