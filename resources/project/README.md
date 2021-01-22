@@ -108,16 +108,8 @@ Also, you all know each other by now, and you know that this is a friendly, open
     * Can use README, notebooks, or separate markdown to summarize methods, results, conclusions, lessons learned and future work
 * Submit the Github url for your final project repo on Canvas before midnight on Friday of final exam week
 
-## Sample project ideas and datasets
-Please review several examples from previous years in the UW GDA Github organization.
+## Sample project ideas
+Please review examples from previous years in the UW GDA Github organization.
 
-Search the web for public datasets:
-* https://registry.opendata.aws/
-* https://cloud.google.com/storage/docs/public-datasets
-
-WA DNR Lidar portal: https://lidarportal.dnr.wa.gov/
-
-Here are some examples for Seattle and federal data sources:
-* https://data-seattlecitygis.opendata.arcgis.com/
-* https://www.seattle.gov/utilities/services/gis/frequently-requested-data
-* https://catalog.data.gov/dataset?metadata_type=geospatial
+## Sample data
+See separate document: [Data Sources](./project_data_sources.md)
