@@ -19,6 +19,12 @@ Please take some time before lab on Friday to review some of the following mater
 * [Data Carpentry Introduction to Geospatial Concepts](https://datacarpentry.org/organization-geospatial/): 
     * Section 2: Introduction to Vector Data (~10 min)
     * Section 3: Coordinate Reference Systems (~15 min)
+* [Vector Geohackweek tutorial](https://geohackweek.github.io/vector/): first 4 sections (~30-45 min)
+    * Introduction
+    * Geospatial Concepts
+    * Encodings, Formats and Libraries
+    * GeoPandas Introduction
+    * *Note: If you prefer an instructor explaining, here is a recording of this tutorial by Emilio Mayorga:* https://www.youtube.com/watch?v=t3PMTnhl1eY&feature=youtu.be
 * [Earth Lab Intermediate Earth Data Science Textbook](https://www.earthdatascience.org/courses/use-data-open-source-python/intro-vector-data-python/spatial-data-vector-shapefiles/intro-to-coordinate-reference-systems-python/)
     * Section 2, Chapter 2: all sections (~30-60 min)
         * Can review on website or download data for interactive exploration
@@ -26,14 +32,6 @@ Please take some time before lab on Friday to review some of the following mater
         * Lesson 2. GIS in Python: Intro to Coordinate Reference Systems in Python
         * Lesson 3. Geographic vs projected coordinate reference systems - GIS in Python
         * Lesson 4. Understand EPSG, WKT and Other CRS Definition Styles
-* [Vector Geohackweek tutorial](https://geohackweek.github.io/vector/): first 4 sections (~30-45 min)
-    * Introduction
-    * Geospatial Concepts
-    * Encodings, Formats and Libraries
-    * GeoPandas Introduction
-    * *Note: If you prefer an instructor explaining, here is a recording of this tutorial by Emilio Mayorga:* https://www.youtube.com/watch?v=t3PMTnhl1eY&feature=youtu.be
-
-
 
 ## Other Resources
 

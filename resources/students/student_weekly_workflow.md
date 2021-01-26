@@ -4,16 +4,29 @@
 1. Join the new Slack channel for the lab
 1. Click on the link to the Github Classroom assignment
 1. Accept the assignment invitation
-1. Wait for progress bars to complete (should take ~10-20 seconds)
+1. Wait for progress bars to complete (should take a few seconds, refresh)
     * It is possible this may hang for a few minutes.  If it is taking longer, post on Slack so we can figure out if it is isolated or others are also experiencing issues.
 1. Click on the resulting link to go to your assignment repository (now has your github username appeneded)
-1. Enjoy the lab:
-    * Read instructions!
-    * Write/modify code
-    * Git add/commit as you make progress to record "checkpoints" in your work
+1. Click the big green Code button and copy the default https URL (something like `https://github.com/UW-GDA/03_numpy_pandas_matplotlib-dshean.git`)
+1. On the course Jupyterhub, open a new terminal
+1. If you haven't already, I recommend you create a directory called labs (`mkdir labs`) and `cd labs`
+1. Clone your assignment repo: `git clone [paste url]`
+
+## Do the Assignment
+1. Read the instructions and introduction/background
+   * I recommend you skim through entire notebook to gauge effort required, and plan accordingly (don’t wait until an hour before the deadline on Friday to start)
+1. Write code to answer questions
+1. Discuss questions and issues with others during lab and on Slack
+1. Rember to `git add` and `git commit` your modified files as you make progress to record "checkpoints" in your work
+
+A few general thoughts on the labs:
+* Remember, this is not a race!  Take your time as you work through these in groups and for homework.  Read the background information and instructions, follow links to documentation, read or at least skim some of the external resources.  Try to work toward improving your understanding rather than rushing to find an answer to all questions as quickly as possible. 
+* I’ve spent a fair amount of time attempting to prepare instructions that are clear and at the right level (offering hints, but not telling you exactly what to do).  I also update, correct and improve the instructions every year based on student questions and common sticking points.  So I really appreciate it when people ask for clarification, offer suggestions, fixes for typos, etc.
+* As you work, remember to include periodic sanity checks.  It’s relatively easy to produce a plot or calculate a number, but try to stop and ask yourself if it actually makes sense based on what you expect and general knowledge.  
+   * For example: Several students had latitude and longitude backwards on initial plots in Lab 03 (a common mistake, one that I still occasionally make).  When you make a plot, check axes, and ask yourself, is it possible to have points at a latitude of -125°? (ah, no, as this exceeds -90° latitude at the south pole)
+* When preparing the exercises notebooks, I remove most of the code, but I preserve a subset of plots and other output.  These are intended to help you check your own output - not a substitute for sanity checks, but hopefully helpful to keep you on the right track.
 
 ## Submitting Completed Assignments
-
 ### 1. Prepare Jupyter notebook for submission
 * Include your name and date at top of notebook, please don't submit your homework as David Shean :)
 * Replace `%matplotlib widget` with `%matplotlib inline`
