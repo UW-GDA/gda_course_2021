@@ -11,7 +11,12 @@ If you find others that should be included here, please open a PR to add or send
 
 ## Lidar
 * USGS 3DEP LidarExplorer: https://prd-tnm.s3.amazonaws.com/LidarExplorer/index.html#/
+  * Possible to select a rectangular area, then process on the fly for download
+  * Can also use website interface to prepare a PDAL pipeline (https://pdal.io/) that can be run on the hub for on-demand data processing.
+* OpenTopography: https://opentopography.org/
+  * Lidar and Global DEM with on-demand processing and API
 * WA DNR Lidar portal: https://lidarportal.dnr.wa.gov/
+  * Note that you can select and download subsets of these data products. But all products hosted by WA DNR use WA state plane coordinate systems with horizontal and vertical units of feet, so extra steps to integrate with other datasets using standard units of meters.
 
 ## Rivers
 * Global River Widths from Landsat (GRWL) Database: https://zenodo.org/record/1297434
