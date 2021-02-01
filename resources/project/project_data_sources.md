@@ -9,6 +9,11 @@ If you find others that should be included here, please open a PR to add or send
 * https://cloud.google.com/storage/docs/public-datasets
 * https://developers.google.com/earth-engine/datasets
 
+## Google Earth Engine
+* https://earthengine.google.com/
+* https://developers.google.com/earth-engine/datasets (different than Google Cloud public datasets)
+* https://github.com/giswqs/geemap - interactive GEE analysis and visualization in a Jupyter notebook using Python API (a nice alternative to the standard javascript IDE)
+
 ## Lidar
 * USGS 3DEP LidarExplorer: https://prd-tnm.s3.amazonaws.com/LidarExplorer/index.html#/
   * Possible to select a rectangular area, then process on the fly for download
