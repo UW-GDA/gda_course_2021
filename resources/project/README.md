@@ -21,23 +21,28 @@ You have multiple options:
 2. Join forces with others in the class who have already done #1.
 3. Something that doesn’t fit into the above categories - pitch it!
 
-### Week 3: Project Idea Pitches
+### Week 3-4: Project Idea Pitches
 * Develop a short, 1-minute pitch/summary of project idea(s)
 * Come to class ready to share your idea(s) in small groups and provide feedback to others
 * If you see potential opportunities to work with other students, follow up with them on Slack!
 
-### Week 4: Submit Short Summary
-* Send a direct message on Slack to the instructor and TA containing a short summary of your project
-    * Instructor/TA will provide feedback
-    * Instructor/TA will compile a list and attempt to facilitate group formation around similar project ideas
+### Week 5: Submit Short Summary
+* Submit a short summary of your project. This could be a few sentences or a short paragraph, and will be part of your repo. Two options:
+   * If you feel like you're ready (you probably are!), please post directly to the #project channel on Slack
+      * Others can provide feedback, or potentially join forces
+      * Remember that this is non-binding and your project will inevitably change as you continue refining and start the work
+   * Send a direct message to the instructor and TA on Slack
+      * Instructor/TA will attempt to provide feedback and answer lingering questions
+      * When ready, please post updated/refined idea to #project channel
 
-### Week 5: Refine Project Idea
-* Come to class ready to share your refined idea(s) in small groups and provide feedback to others
-* If you see potential opportunities to work with other students, follow up with them on Slack!
-* For group projects, start discussing next steps with your team, defining roles, dividing tasks
+### Week 6: Review Summaries, Continue Refining, Additional Group Formation
+* Review the lists of project summaries on the #project channel
+   * Offer feedback, ask questions, suggestions for datasets
+* If you see potential opportunities to work with others, follow up with them on Slack! Or continue with an individual project!
+   * For group projects, start discussing next steps with your team, defining roles, dividing tasks
 * Start preparing more detailed project outline (see below)
 
-### Week 6: Repo and Project Outline 
+### Week 7: Repo and Project Outline 
 #### Create a Github repository
 Create a new private repo for your project within the GDA organization (can move to personal accounts later). Try to think of a descriptive repo name, bonus points if it is clever - try to avoid repo names like “finalproject”, which doesn’t help your classmates distinguish between projects.
 
