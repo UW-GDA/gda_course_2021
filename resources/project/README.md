@@ -44,9 +44,11 @@ You have multiple options:
 
 ### Week 7: Repo and Project Outline 
 #### Create a Github repository
-Create a new private repo for your project within the GDA organization (can move to personal accounts later). Try to think of a descriptive repo name, bonus points if it is clever - try to avoid repo names like “finalproject”, which doesn’t help your classmates distinguish between projects.
+Create a new private repo for your project *within the GDA organization* (can transfer to personal accounts later if desired). Go to https://github.com/UW-GDA and click the big green "New" button.
 
-When you initialize, select to include a README.md and include a .gitignore for Python.
+Try to think of a descriptive repo name, bonus points if it is clever - try to avoid repo names like “finalproject”, which doesn’t help your classmates distinguish between projects.
+
+When you initialize, select to include a README.md and include a .gitignore file for Python.
 
 Don’t stress too much about the specifics of the repo - these are not permanent, and you can always change repo names, or start over entirely (just copy and add existing files as a first commit). One of the goals here is to gain more experience using git (potentially for collaborative work), and you’re inevitably going to make some mistakes along the way. Best to do it here, where stakes are pretty low.
 
