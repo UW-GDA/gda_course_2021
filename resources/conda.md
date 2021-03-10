@@ -5,20 +5,28 @@ CEE498/CEWA599
 Friedrich Knuth and David Shean  
 
 ## [What is conda?](https://conda.io/en/latest/)
+* See the first few sections of the User Guide:
+  * https://docs.conda.io/projects/conda/en/latest/user-guide/index.html
+  * https://docs.conda.io/projects/conda/en/latest/user-guide/concepts/
 
 ## Basic terminology
+#### package manager 
+_helps you download and organize open-source software on your machine (conda is cross-platform, which is one of the reasons it is so great. There are also OS-specific package managers, like homebrew (MacOS), apt-get (Linux), chocolatey (Windows) etc...)_
 
-**package manager**  
-_helps you download and organize open-source software on your machine (think homebrew (MacOS), apt-get (Linux), chocolatey (Windows) etc...)_
+#### package
+_includes Python module(s), binary executable machine instructions (e.g., libraries compiled from NumPy C/C++ source code), metadata, etc._  
+https://docs.conda.io/projects/conda/en/latest/user-guide/concepts/packages.html#what-is-a-conda-package
 
-**package**  
-_a package consists of executable machine instructions, e.g. underlying C/C++ code for NumPy_  
+#### dependency
+_another package required by a given package to function (e.g., `geopandas` depends on `fiona`, `shapely` and many other packages)_
 
-**environment**  
-_high-level organization of dependencies (packages that require other packages) and versions to avoid conflicts_  
+#### environment
+_collections of packages with self-consistent dependencies and versions, managed by conda so "everything just works together"_  
+https://docs.conda.io/projects/conda/en/latest/user-guide/concepts/environments.html
 
-**channel**  
-_source for retrieving packages_
+#### channel
+_source for packages_  
+https://docs.conda.io/projects/conda/en/latest/user-guide/concepts/channels.html
 
 ## Why?
 
@@ -29,9 +37,9 @@ But I already have Python installed on my computer, why do I need this?
 ## Install Conda
 Downloand and install the Python 3 version of [Miniconda](https://docs.conda.io/en/latest/miniconda.html) or [Anaconda](https://www.anaconda.com/distribution/). 
 
-Miniconda gives you just the conda package manager, while Anaconda provides the package manager along with a large set of additional tools. 
+Miniconda gives you just the conda package manager, while Anaconda provides the same package manager along with a large set of common packages.  While Anaconda may be easiest for beginners, we recommend miniconda for a more a lighter, faster, more customizable installation that requires less disk space.
 
-All you need to proceed is the package manager provided by Miniconda, which is a lighter and faster install. The package manager is what enables you to pull together various Python packages, resolve their dependencies, and create a functional custom Python environment. 
+The package manager is what enables you to pull together various Python packages, resolve their dependencies, and create a functional custom Python environment. 
 
 Follow the instructions for installation: https://conda.io/projects/conda/en/latest/user-guide/install/index.html
 
@@ -48,11 +56,11 @@ Update to latest version of conda:
 The environment used for the winter 2021 course is in `uwgda-image-2021` repo in the UW-GDA organization on github:  
 https://github.com/UW-GDA/uwgda-image-2021/blob/main/environment.yml
 
-Download or copy the content of this file to your computer. On github, you can right-click on the "RAW" button and save link as.
+Download or copy the content of this text file to your computer. On github, you can right-click on the "RAW" button and save link as.
 
 View it with a text editor and note that it is basically just a list of package names (many you will recognize from this course).  The first line `uwgda2021` defines the conda environment name.
 
-Note that we hardcoded version numbers for most packages. This is not necessary, but is a best practice for our classroom situation. Some packages would likely be updated during the quarter, potentially changing/breaking some functionality. For your personal setup, you may want to remove the version numbers, so conda will automatically fetch the latest version of each package, and you can access latest features (but no guarantee that our notebooks will run out of the box).
+Note that we may have hardcoded version numbers for some packages (e.g., `- python=3.8`). This is not necessary, but is a best practice for our classroom situation. Because many of these projects are under active development, new versions of many these packages would likely be released during the quarter, potentially changing/breaking some functionality. For your personal setup, you may want to remove the version numbers, so conda will automatically fetch the latest version of each package, and you can access latest features (but no guarantee that the GDA notebooks will run out of the box).
 
 To recreated the `uwgda2021` environment on your local machine, run the following from a terminal:
 
@@ -64,7 +72,7 @@ Once that's done, you need to activate the `uwgda2021` environment, which contai
 
 `conda activate uwgda2021`
 
-You should get a different terminal prompt display with `uwgda2021`.  Now when you type `python` it should run the python executable in that conda environment, and all of the GDA packages will be available.
+You should get a different terminal prompt display with `uwgda2021`.  Now when you type `python` it should run the python executable in that conda environment, and all of the GDA packages will be available!
 
 ## Starting a jupyter notebook server
 
@@ -73,11 +81,6 @@ Once you have created an environment with the Jupyter kernel installed (make sur
 `jupyter lab`
 
 This will launch your browser and bring up the jupyter lab interface. Now, you can open and run the GDA course notebooks, or create your own notebooks with the GDA environment.
-
-To load the classic Jupyter notebook interface:  
-`jupyter notebook` 
-
-_If using the classic notebook interface, you should use the matplotlib backend _ `matplotlib %notebook` _ instead of the_ `matplotib %widget` _we used in Jupyter lab._
 
 ## Removing or starting over
 
