@@ -84,6 +84,10 @@ Then from the terminal, start Jupyter lab with the command: `jupyter lab`
 
 This should automatically open a new window/tab in your local browser and bring up the jupyter lab interface. Now, you can open and run the GDA course notebooks, or create your own notebooks with the GDA environment!
 
+Note that the corresponding url will be printed in your terminal.  Something like `http://localhost:8888/?token=8c2ec9dc22517fac7323334fec7224e7eff07275c2f648e8`.  If you accidentally close the tab, you can just paste this url in the browser (no need to restart jupyter).
+
+To end your jupyter lab session, you can close the tab, but the Jupyter lab server is still running.  To stop the server, on the command line you can `Ctrl-C` in the same window/terminal where you ran `jupyter lab`, then select 'y' to shut down the server.  From the open Jupyter lab tab, you can also "File -> Shut Down".
+
 ## Removing or starting over
 
 Most of the time, you should be able to `conda update`, or manage environments to add/remove packages.
