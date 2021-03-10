@@ -51,36 +51,38 @@ Run the following to see various useful info about your install:
 Update to latest version of conda:
 `conda update conda`
 
-## Creating the CEWA 599 GDA environment
+## Re-creating the GDA environment
 
-The environment used for the winter 2021 course is in `uwgda-image-2021` repo in the UW-GDA organization on github:  
+The environment used for the GDA course is in `uwgda-image-2021` repo in the UW-GDA Github organization:  
 https://github.com/UW-GDA/uwgda-image-2021/blob/main/environment.yml
 
-Download or copy the content of this text file to your computer. On github, you can right-click on the "RAW" button and save link as.
+This configuration file contains all of the packages/versions we used on the Jupyterhub this quarter.
 
-View it with a text editor and note that it is basically just a list of package names (many you will recognize from this course).  The first line `uwgda2021` defines the conda environment name.
+1. Download (or copy the content of) this text file to your computer. On Github, you can right-click on the "RAW" button in your browser, and "save link as" to save locally.
+    * View it with a text editor and note that it is basically just a list of package names (many you will recognize from this course).
+    * The first line `uwgda2021` defines the conda environment name.
+    * Note that we may have "pinned" version numbers for some packages (e.g., `- python=3.8`). This is not necessary, but is a best practice for our classroom situation.  Because many of these projects are under active development, new versions of many these packages would likely be released during the quarter, potentially changing/breaking some functionality. For your personal setup, you may want to remove the version numbers, so conda will automatically fetch the latest version of each package, and you can access latest features (but no guarantee that the GDA notebooks will run out of the box).
+1. Create the `uwgda2021` conda environment on your local machine
+    * Open a terminal on your machine, and run the following: `conda env create -f environment.yml`
+    * This will take a few minutes to download and unzip all of the packages.
+1. Activate the `uwgda2021` environment, 
+    * `conda activate uwgda2021`
+    * You should see a slightly different terminal prompt display with `(uwgda2021)`
+    * Now when you type `python` it should run the python executable in the new conda environment, and all of the GDA packages will be available!  Try it, run `python`, then `import geopandas` (shouldn't see any errors), then `exit()`
+1. Configure the Jupyterlab extensions
+    * Copy the multi-line `jupyter labextension` command here: https://github.com/UW-GDA/uwgda-image-2021/blob/main/postBuild
+    * Paste in your terminal and run (will take few minutes)
+    * Can verify install was successful with `jupyter labextension list` (should see "enabled OK" for at least 6 extensions)
 
-Note that we may have hardcoded version numbers for some packages (e.g., `- python=3.8`). This is not necessary, but is a best practice for our classroom situation. Because many of these projects are under active development, new versions of many these packages would likely be released during the quarter, potentially changing/breaking some functionality. For your personal setup, you may want to remove the version numbers, so conda will automatically fetch the latest version of each package, and you can access latest features (but no guarantee that the GDA notebooks will run out of the box).
+Note that once this setup is complete, you only need to `conda activate uwgda2021` when you start a new terminal (including after you restart your computer).
 
-To recreated the `uwgda2021` environment on your local machine, run the following from a terminal:
+## Starting Jupyter lab
 
-`conda env create -f environment.yml`
+Once you have created the environment, activated the environment, and installed Jupyter lab extensions, open a terminal and navigate to the local directory where you store your notebooks/code (either lab/project repos from class that you `git clone` to local directory, or location where you will create new notebooks locally).  This could be something like `~/Documents/gda_course_2021/`.
 
-This will take a few minutes to download and unzip all of the packages.
+Then from the terminal, start Jupyter lab with the command: `jupyter lab`
 
-Once that's done, you need to activate the `uwgda2021` environment, which contains all of the packages/versions used on the Jupyterhub:
-
-`conda activate uwgda2021`
-
-You should get a different terminal prompt display with `uwgda2021`.  Now when you type `python` it should run the python executable in that conda environment, and all of the GDA packages will be available!
-
-## Starting a jupyter notebook server
-
-Once you have created an environment with the Jupyter kernel installed (make sure you have activated the environment), navigate to your local directory containing your notebooks (from the class, or new notebooks that you will create), then run:
-
-`jupyter lab`
-
-This will launch your browser and bring up the jupyter lab interface. Now, you can open and run the GDA course notebooks, or create your own notebooks with the GDA environment.
+This should automatically open a new window/tab in your local browser and bring up the jupyter lab interface. Now, you can open and run the GDA course notebooks, or create your own notebooks with the GDA environment!
 
 ## Removing or starting over
 
