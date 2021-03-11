@@ -32,9 +32,11 @@ https://docs.conda.io/projects/conda/en/latest/user-guide/concepts/channels.html
 
 But I already have Python installed on my computer, why do I need this?
 
-# How to replicate the GDA JuptyerHub environment
+# How to reproduce the GDA JuptyerHub environment
 
 ## Install Conda
+*Note: If you have an existing conda install, you can skip this section and go straight to 'Create the GDA environment' section.  You may want to `conda update conda` if it's been a while since you installed.*
+
 Downloand and install the Python 3 version of [Miniconda](https://docs.conda.io/en/latest/miniconda.html) or [Anaconda](https://www.anaconda.com/distribution/). 
 
 Miniconda gives you just the conda package manager, while Anaconda provides the same package manager along with a large set of common packages.  While Anaconda may be easiest for beginners, we recommend miniconda for a more a lighter, faster, more customizable installation that requires less disk space.
@@ -51,7 +53,7 @@ Run the following to see various useful info about your install:
 Update to latest version of conda:
 `conda update conda`
 
-## Re-creating the GDA environment
+## Create the GDA environment
 
 The environment used for the GDA course is in `uwgda-image-2021` repo in the UW-GDA Github organization:  
 https://github.com/UW-GDA/uwgda-image-2021/blob/main/environment.yml
