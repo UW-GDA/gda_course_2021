@@ -108,11 +108,13 @@ That may sound like a lot, but some of these items should only be 1-2 sentences,
 ### Final Exam Week: Presentations
 * Each individual/group will prepare and deliver a ~5-10 minute presentation/demo during a group session at the eScience Institute
     * If you only need 5 minutes, that’s perfectly acceptable
-    * Larger groups will have up to 15 minutes if necessary
+    * Larger groups will have up to 10 minutes if necessary
     * Format is flexible: can be slides, scrolling through notebook(s), scrolling through markdown files
+      * If using slides, please include a copy of your presentation in your final project repo (ideally a pdf, which will render on Github)
 * There will be short Q&A/discussion after each presentation
-    * I expect active engagement from the entire class. Part of your final project grade is based on participation during the group session.
-* If using slides, please include a copy of your presentation in your final project repo (ideally a pdf, which will render on Github)
+    * Let's try to type all questions/comments in the #project Slack channel, so presenters can follow up later
+    * Hoping we can do one short question/response live during the transition to the next speaker
+    * I expect active engagement from the entire class. Part of your final project grade is based on participation during the group session
 * Optional (but strongly recommended): Enable read access for the GDA student team in the Github org, so others can see your great work, and learn from what you've done!
 
 #### Some Perspective
@@ -121,9 +123,9 @@ Please remember that nobody is asking for or expecting perfection on your final 
 
 This was meant to be an exercise to get you independently scoping your own projects and starting to explore new data/techniques, while also solidifying and building on some of the material we covered this quarter. Nobody is expecting a research project that is ready for publication or a presentation ready for a major international conference.
 
-If after this week, you never revisit this work, I hope that it was a useful learning experience. However, I think several of you will continue to pursue some of the things you started, maybe for your MS/PhD research, which is always really rewarding for me to see.
+If after this week, you never revisit this work, I hope that it was a useful learning experience. However, I think several of you will continue to pursue some of the things you started, maybe for your MS/PhD research, which is always really rewarding for me to see. I'm happy to continue offering input as you continue.
 
-Also, you all know each other by now, and you know that this is a friendly, open group. Nobody is judging you or your presentation. Let’s support each other and celebrate our collective accomplishments.
+You all know each other by now, and you know that this is a friendly, open, supportive group. Nobody is judging you or your presentation. We all have a lot going on right now. Let’s support each other, offer constructive feedback, and celebrate our collective accomplishments.
 
 ### Final Exam Week: Repo Submission
 * Finalize your repository with notebooks, scripts and documentation
