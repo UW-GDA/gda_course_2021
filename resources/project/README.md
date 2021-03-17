@@ -115,7 +115,13 @@ That may sound like a lot, but some of these items should only be 1-2 sentences,
     * Let's try to type all questions/comments in the #project Slack channel, so presenters can follow up later
     * Hoping we can do one short question/response live during the transition to the next speaker
     * I expect active engagement from the entire class. Part of your final project grade is based on participation during the group session
-* Optional (but strongly recommended): Enable read access for the GDA student team in the Github org, so others can see your great work, and learn from what you've done!
+* Before your presentation, please enable read access on your repo, so others in the class can see your great work, and learn from what you've done!
+   * Open the "Settings" tab near the top of your repo
+   * Select "Manage Access" on left side
+   * Click the green "Invite teams or people"
+   * Type `gda_w2021_students` in the search bar and select
+   * Use the default Read access and click the green button to proceed
+   * Check the UW-GDA organization to see other project repos!
 
 #### Some Perspective
 
@@ -129,8 +135,8 @@ You all know each other by now, and you know that this is a friendly, open, supp
 
 ### Final Exam Week: Repo Submission
 * Finalize your repository with notebooks, scripts and documentation
-    * Can use README, notebooks, or separate markdown to summarize methods, results, conclusions, lessons learned and future work
-* Submit the Github url for your final project repo on Canvas before midnight on Friday of final exam week
+    * Can use README, notebooks, or separate markdown files to summarize methods, results, conclusions, lessons learned and future work
+* Submit the Github url for your final project repo on Canvas before 5 PM on Friday of final exam week
 
 ## Sample project ideas
 Please review examples from previous years in the UW GDA Github organization.
