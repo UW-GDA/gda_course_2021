@@ -115,28 +115,32 @@ That may sound like a lot, but some of these items should only be 1-2 sentences,
     * Let's try to type all questions/comments in the #project Slack channel, so presenters can follow up later
     * Hoping we can do one short question/response live during the transition to the next speaker
     * I expect active engagement from the entire class. Part of your final project grade is based on participation during the group session
-* Before your presentation, please enable read access on your repo, so others in the class can see your great work, and learn from what you've done!
+* Before our project presentation session, please enable read access on your repo, so others in the class can see your great work, and learn from what you've done!
    * Open the "Settings" tab near the top of your repo
    * Select "Manage Access" on left side
    * Click the green "Invite teams or people"
    * Type `gda_w2021_students` in the search bar and select
    * Use the default Read access and click the green button to proceed
    * Check the UW-GDA organization to see other project repos!
+   * I recognize that this may feel a little uncomfortable, especially if you didn’t have as much time as expected or don’t feel your repo is “finished.” It’s OK! We’re all in the same boat and projects like this are never truly finished. See below for some additional thoughts, and please reach out if you would like to discuss.
 
 #### Some Perspective
-
 Please remember that nobody is asking for or expecting perfection on your final projects. The reality is that you probably only had time to attempt 10-30% of the things you outlined during Week 6. And that’s OK. If some things worked out, fantastic! Tell us a little about them so we can share your success and learn from what you’ve done. If nothing worked out, that’s also OK! Share a bit of why you chose this project, what you attempted, some of the challenges you encountered, and plans/recommendations for future work.
 
 This was meant to be an exercise to get you independently scoping your own projects and starting to explore new data/techniques, while also solidifying and building on some of the material we covered this quarter. Nobody is expecting a research project that is ready for publication or a presentation ready for a major international conference.
 
 If after this week, you never revisit this work, I hope that it was a useful learning experience. However, I think several of you will continue to pursue some of the things you started, maybe for your MS/PhD research, which is always really rewarding for me to see. I'm happy to continue offering input as you continue.
 
-You all know each other by now, and you know that this is a friendly, open, supportive group. Nobody is judging you or your presentation. We all have a lot going on right now. Let’s support each other, offer constructive feedback, and celebrate our collective accomplishments.
+You all know each other by now, and you know that this is a friendly, open, supportive group. Nobody is judging you or your presentation/repo. We all have a lot going on right now. Let’s support each other, offer constructive feedback, and celebrate our collective accomplishments.
 
 ### Final Exam Week: Repo Submission
 * Finalize your repository with notebooks, scripts and documentation
     * Can use README, notebooks, or separate markdown files to summarize methods, results, conclusions, lessons learned and future work
 * Submit the Github url for your final project repo on Canvas before 5 PM on Friday of final exam week
+* Optional: make your repo visible to the world! Just need to switch from private to public visibililty:
+   * From the "Settings" tab, scroll down to the Danger Zone and click "Change Visibility"
+   * Select "Make Public" and type the repo name in the prompt
+   * Share the url with others!
 
 ## Sample project ideas
 Please review examples from previous years in the UW GDA Github organization.
