@@ -136,7 +136,7 @@ You all know each other by now, and you know that this is a friendly, open, supp
 ### Final Exam Week: Repo Submission
 * Finalize your repository with notebooks, scripts and documentation
     * Can use README, notebooks, or separate markdown files to summarize methods, results, conclusions, lessons learned and future work
-* Submit the Github url for your final project repo on Canvas before 5 PM on Friday of final exam week
+* Submit the Github url for your final project repo on Canvas before midnight on Friday of final exam week
 * Optional: make your repo visible to the world! Just need to switch from private to public visibililty:
    * From the "Settings" tab, scroll down to the Danger Zone and click "Change Visibility"
    * Select "Make Public" and type the repo name in the prompt
