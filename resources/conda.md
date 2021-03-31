@@ -5,33 +5,43 @@ CEE498/CEWA599
 Friedrich Knuth and David Shean  
 
 ## [What is conda?](https://conda.io/en/latest/)
+* See the first few sections of the User Guide:
+  * https://docs.conda.io/projects/conda/en/latest/user-guide/index.html
+  * https://docs.conda.io/projects/conda/en/latest/user-guide/concepts/
 
 ## Basic terminology
+#### package manager 
+_helps you download and organize open-source software on your machine (conda is cross-platform, which is one of the reasons it is so great. There are also OS-specific package managers, like homebrew (MacOS), apt-get (Linux), chocolatey (Windows) etc...)_
 
-**package manager**  
-_helps you download and organize open-source software on your machine (think homebrew (MacOS), apt-get (Linux), chocolatey (Windows) etc...)_
+#### package
+_includes Python module(s), binary executable machine instructions (e.g., libraries compiled from NumPy C/C++ source code), metadata, etc._  
+https://docs.conda.io/projects/conda/en/latest/user-guide/concepts/packages.html#what-is-a-conda-package
 
-**package**  
-_a package consists of executable machine instructions, e.g. underlying C/C++ code for NumPy_  
+#### dependency
+_another package required by a given package to function (e.g., `geopandas` depends on `fiona`, `shapely` and many other packages)_
 
-**environment**  
-_high-level organization of dependencies (packages that require other packages) and versions to avoid conflicts_  
+#### environment
+_collections of packages with self-consistent dependencies and versions, managed by conda so "everything just works together"_  
+https://docs.conda.io/projects/conda/en/latest/user-guide/concepts/environments.html
 
-**channel**  
-_source for retrieving packages_
+#### channel
+_source for packages_  
+https://docs.conda.io/projects/conda/en/latest/user-guide/concepts/channels.html
 
 ## Why?
 
 But I already have Python installed on my computer, why do I need this?
 
-# How to replicate the GDA JuptyerHub environment
+# How to reproduce the GDA JuptyerHub environment
 
 ## Install Conda
+*Note: If you have an existing conda install, you can skip this section and go straight to 'Create the GDA environment' section.  You may want to `conda update conda` if it's been a while since you installed.*
+
 Downloand and install the Python 3 version of [Miniconda](https://docs.conda.io/en/latest/miniconda.html) or [Anaconda](https://www.anaconda.com/distribution/). 
 
-Miniconda gives you just the conda package manager, while Anaconda provides the package manager along with a large set of additional tools. 
+Miniconda gives you just the conda package manager, while Anaconda provides the same package manager along with a large set of common packages.  While Anaconda may be easiest for beginners, we recommend miniconda for a more a lighter, faster, more customizable installation that requires less disk space.
 
-All you need to proceed is the package manager provided by Miniconda, which is a lighter and faster install. The package manager is what enables you to pull together various Python packages, resolve their dependencies, and create a functional custom Python environment. 
+The package manager is what enables you to pull together various Python packages, resolve their dependencies, and create a functional custom Python environment. 
 
 Follow the instructions for installation: https://conda.io/projects/conda/en/latest/user-guide/install/index.html
 
@@ -43,41 +53,42 @@ Run the following to see various useful info about your install:
 Update to latest version of conda:
 `conda update conda`
 
-## Creating the CEWA 599 GDA environment
+## Create the GDA environment
 
-The environment used for the winter 2021 course is in `uwgda-image-2021` repo in the UW-GDA organization on github:  
+The environment used for the GDA course is in `uwgda-image-2021` repo in the UW-GDA Github organization:  
 https://github.com/UW-GDA/uwgda-image-2021/blob/main/environment.yml
 
-Download or copy the content of this file to your computer. On github, you can right-click on the "RAW" button and save link as.
+This configuration file contains all of the packages/versions we used on the Jupyterhub this quarter.
 
-View it with a text editor and note that it is basically just a list of package names (many you will recognize from this course).  The first line `uwgda2021` defines the conda environment name.
+1. Download (or copy the content of) this text file to your computer. On Github, you can right-click on the "RAW" button in your browser, and "save link as" to save locally.
+    * View it with a text editor and note that it is basically just a list of package names (many you will recognize from this course).
+    * The first line `uwgda2021` defines the conda environment name.
+    * Note that we may have "pinned" version numbers for some packages (e.g., `- python=3.8`). This is not necessary, but is a best practice for our classroom situation.  Because many of these projects are under active development, new versions of many these packages would likely be released during the quarter, potentially changing/breaking some functionality. For your personal setup, you may want to remove the version numbers, so conda will automatically fetch the latest version of each package, and you can access latest features (but no guarantee that the GDA notebooks will run out of the box).
+1. Create the `uwgda2021` conda environment on your local machine
+    * Open a terminal on your machine, and run the following: `conda env create -f environment.yml`
+    * This will take a few minutes to download and unzip all of the packages.
+1. Activate the `uwgda2021` environment, 
+    * `conda activate uwgda2021`
+    * You should see a slightly different terminal prompt display with `(uwgda2021)`
+    * Now when you type `python` it should run the python executable in the new conda environment, and all of the GDA packages will be available!  Try it, run `python`, then `import geopandas` (shouldn't see any errors), then `exit()`
+1. Configure the Jupyterlab extensions
+    * Copy the multi-line `jupyter labextension` command here: https://github.com/UW-GDA/uwgda-image-2021/blob/main/postBuild
+    * Paste in your terminal and run (will take few minutes)
+    * Can verify install was successful with `jupyter labextension list` (should see "enabled OK" for at least 6 extensions)
 
-Note that we hardcoded version numbers for most packages. This is not necessary, but is a best practice for our classroom situation. Some packages would likely be updated during the quarter, potentially changing/breaking some functionality. For your personal setup, you may want to remove the version numbers, so conda will automatically fetch the latest version of each package, and you can access latest features (but no guarantee that our notebooks will run out of the box).
+Note that once this setup is complete, you only need to `conda activate uwgda2021` when you start a new terminal (including after you restart your computer).
 
-To recreated the `uwgda2021` environment on your local machine, run the following from a terminal:
+## Starting Jupyter lab
 
-`conda env create -f environment.yml`
+Once you have created the environment, activated the environment, and installed Jupyter lab extensions, open a terminal and navigate to the local directory where you store your notebooks/code (either lab/project repos from class that you `git clone` to local directory, or location where you will create new notebooks locally).  This could be something like `~/Documents/gda_course_2021/`.
 
-This will take a few minutes to download and unzip all of the packages.
+Then from the terminal, start Jupyter lab with the command: `jupyter lab`
 
-Once that's done, you need to activate the `uwgda2021` environment, which contains all of the packages/versions used on the Jupyterhub:
+This should automatically open a new window/tab in your local browser and bring up the jupyter lab interface. Now, you can open and run the GDA course notebooks, or create your own notebooks with the GDA environment!
 
-`conda activate uwgda2021`
+Note that the corresponding url will be printed in your terminal.  Something like `http://localhost:8888/?token=8c2ec9dc22517fac7323334fec7224e7eff07275c2f648e8`.  If you accidentally close the tab, you can just paste this url in the browser (no need to restart jupyter).
 
-You should get a different terminal prompt display with `uwgda2021`.  Now when you type `python` it should run the python executable in that conda environment, and all of the GDA packages will be available.
-
-## Starting a jupyter notebook server
-
-Once you have created an environment with the Jupyter kernel installed (make sure you have activated the environment), navigate to your local directory containing your notebooks (from the class, or new notebooks that you will create), then run:
-
-`jupyter lab`
-
-This will launch your browser and bring up the jupyter lab interface. Now, you can open and run the GDA course notebooks, or create your own notebooks with the GDA environment.
-
-To load the classic Jupyter notebook interface:  
-`jupyter notebook` 
-
-_If using the classic notebook interface, you should use the matplotlib backend _ `matplotlib %notebook` _ instead of the_ `matplotib %widget` _we used in Jupyter lab._
+To end your jupyter lab session, you can close the tab, but the Jupyter lab server is still running.  To stop the server, on the command line you can `Ctrl-C` in the same window/terminal where you ran `jupyter lab`, then select 'y' to shut down the server.  From the open Jupyter lab tab, you can also "File -> Shut Down".
 
 ## Removing or starting over
 

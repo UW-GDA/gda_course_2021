@@ -23,6 +23,14 @@ If you find others that should be included here, please open a PR to add or send
 * WA DNR Lidar portal: https://lidarportal.dnr.wa.gov/
   * Note that you can select and download subsets of these data products. But all products hosted by WA DNR use WA state plane coordinate systems with horizontal and vertical units of feet, so extra steps to integrate with other datasets using standard units of meters.
 
+## Sample high-resolution imagery
+* Planet PlanetScope (~3 m GSD, 4 bands).  They have edu and research program that allows you to sign up for an account that enables access their Explorer interface and API, with a limited quota to download sample imagery: https://www.planet.com/markets/education-and-research/
+* NAIP for 1-m tiled orthoimages, RGB and in some cases NIR.  Here's info about WA: https://geo.wa.gov/datasets/785aa8e8876c4b8b9ed54e9816fb02c4
+* Maxar/DigitalGlobe releases some data to the public: 
+  * https://www.maxar.com/open-data/
+  * https://www.maxar.com/product-samples
+* Spacenet hosts competitions using sample data for various locations around the world: https://registry.opendata.aws/spacenet/
+
 ## Rivers
 * Global River Widths from Landsat (GRWL) Database: https://zenodo.org/record/1297434
 * River Surface Reflectance Database (RiverSR): https://zenodo.org/record/4304567#.X86aQGhKiUk

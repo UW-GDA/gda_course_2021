@@ -44,13 +44,29 @@ You have multiple options:
 
 ### Week 7: Repo and Project Outline 
 #### Create a Github repository
-Create a new private repo for your project within the GDA organization (can move to personal accounts later). Try to think of a descriptive repo name, bonus points if it is clever - try to avoid repo names like “finalproject”, which doesn’t help your classmates distinguish between projects.
+Create a new private repo for your project *within the GDA organization* (can transfer to personal accounts later if desired). Go to https://github.com/UW-GDA and click the big green "New" button.
 
-When you initialize, select to include a README.md and include a .gitignore for Python.
+Try to think of a descriptive repo name, bonus points if it is clever - try to avoid repo names like “finalproject”, which doesn’t help your classmates distinguish between projects.
+
+When you initialize, select to include a README.md and include a .gitignore file for Python.
 
 Don’t stress too much about the specifics of the repo - these are not permanent, and you can always change repo names, or start over entirely (just copy and add existing files as a first commit). One of the goals here is to gain more experience using git (potentially for collaborative work), and you’re inevitably going to make some mistakes along the way. Best to do it here, where stakes are pretty low.
 
-If you’ve decided to do a group project, pick someone to initiate and manage the repo, add each other as collaborators, and make sure all can access and commit to the repo. Send me with a direct message on Slack (including everyone on the project), so I can help make sure all of the permissions are set up correctly. 
+#### Group project initialization
+If you’ve decided to do a group project, pick a project lead to initiate and manage the repo, add others as collaborators (individuals or using a new Github Team within the UW-GDA organization), and make sure all can access and commit to the repo. 
+
+Some of the resources from our recent ICESat-2 Hackweek event may be useful here (swapping `UW-GDA` for `ICESAT-2HackWeek` in the urls): https://icesat-2hackweek.github.io/learning-resources/projects/project_initialization/.  If you encounter issues, send me a direct message on Slack (including everyone on the group project), so I can help you navigate. 
+
+I would like to see **at least one commit from each group member** at this phase of the project, even if it is as simple as everyone using the Github interface to edit the README.md file and add their name. There are many approaches to collaborative group/team development using git/Github and no "right" way. 
+
+#### Group project collaboration
+Collaboration can be a bit more complicated with Jupyter notebooks (vs. standalone Python scripts/libraries), since running cells in the notebook will change execution count and output, even if the code and content appear identical. Best practice is to avoid situations where two people are independently working on the same notebook. When trying to push/pull changes to/from same origin branch, there will inevitably be merge conflicts that can be messy to untangle (though ReviewNB is useful for reviewing notebook diff).
+
+General recommendation - split up the project into multiple smaller notebooks, and have each person work on different components. Avoid the long mega-notebook (like most of our labs), and instead structure your repo with a series of notebooks. For example, you could have one notebook that ingests files, reduces/manipulates the data (e.g., reprojection), then writes new files out to disk in "analysis-ready" format. Then a second notebook reads in those data and does some analysis, creates some plots, etc. If you can pass things back and forth between group members like this, you'll avoid conflicts.
+
+Alternatively, each team member can create separate notebooks with different filenames that both live in the shared repo. When another team member does some work and commits their notebook to the shared repo, you can can pull changes, open their notebook, select relevant cells, copy and paste into your notebook. One simple option with this model is for each group member to create and maintain a subdirectory within the repo where they will stage and modify their own notebooks for their component of the project. 
+
+If you feel comfortable with git/github, you can also use a more standard git branching workflow: https://icesat-2hackweek.github.io/learning-resources/projects/example_workflow/. Reach out to the instructor and TA for additional recommendations.
 
 #### Prepare your README
 The README.md file in your new repo will serve as the landing page for your project. You can continue to update as your project evolves, but for now, please prepare a basic project outline. I recommend that you review the markdown cheat sheet and use some basic headings, bulleted/numbered lists, and other formatting to organize your outline.
@@ -58,6 +74,7 @@ The README.md file in your new repo will serve as the landing page for your proj
 Please include the following (can combine and reorganize as necessary):
 - Project Title
 - Name(s) of individual or team members
+   - See requirement above for at least one contribution/commit from each team member on the project README.md. Adding names is a good way to practice collaboratively editing a file on Github.
 - Short 1-2 sentence summary
 - Some introductory background information
 - Problem statement, question(s) and/or objective(s)
@@ -91,27 +108,42 @@ That may sound like a lot, but some of these items should only be 1-2 sentences,
 ### Final Exam Week: Presentations
 * Each individual/group will prepare and deliver a ~5-10 minute presentation/demo during a group session at the eScience Institute
     * If you only need 5 minutes, that’s perfectly acceptable
-    * Larger groups will have up to 15 minutes if necessary
+    * Larger groups will have up to 10 minutes if necessary
     * Format is flexible: can be slides, scrolling through notebook(s), scrolling through markdown files
+      * If using slides, please include a copy of your presentation in your final project repo (ideally a pdf, which will render on Github)
 * There will be short Q&A/discussion after each presentation
-    * I expect active engagement from the entire class. Part of your final project grade is based on participation during the group session.
-* If using slides, please include a copy of your presentation in your final project repo (ideally a pdf, which will render on Github)
-* Optional (but strongly recommended): Enable read access for the GDA student team in the Github org, so others can see your great work, and learn from what you've done!
+    * Let's try to type all questions/comments in the #project Slack channel, so presenters can follow up later
+    * Hoping we can do one short question/response live during the transition to the next speaker
+    * I expect active engagement from the entire class. Part of your final project grade is based on participation during the group session
+* Before our project presentation session, please enable read access on your repo, so others in the class can see your great work, and learn from what you've done!
+   * Open the "Settings" tab near the top of your repo
+   * Select "Manage Access" on left side
+   * Click the green "Invite teams or people"
+   * Type `gda_w2021_students` in the search bar and select
+   * Use the default Read access and click the green button to proceed
+   * Check the UW-GDA organization to see other project repos!
+   * I recognize that this may feel a little uncomfortable, especially if you didn’t have as much time as expected or don’t feel your repo is “finished.” It’s OK! We’re all in the same boat and projects like this are never truly finished. See below for some additional thoughts, and please reach out if you would like to discuss.
 
 #### Some Perspective
-
 Please remember that nobody is asking for or expecting perfection on your final projects. The reality is that you probably only had time to attempt 10-30% of the things you outlined during Week 6. And that’s OK. If some things worked out, fantastic! Tell us a little about them so we can share your success and learn from what you’ve done. If nothing worked out, that’s also OK! Share a bit of why you chose this project, what you attempted, some of the challenges you encountered, and plans/recommendations for future work.
 
 This was meant to be an exercise to get you independently scoping your own projects and starting to explore new data/techniques, while also solidifying and building on some of the material we covered this quarter. Nobody is expecting a research project that is ready for publication or a presentation ready for a major international conference.
 
-If after this week, you never revisit this work, I hope that it was a useful learning experience. However, I think several of you will continue to pursue some of the things you started, maybe for your MS/PhD research, which is always really rewarding for me to see.
+If after this week, you never revisit this work, I hope that it was a useful learning experience. However, I think several of you will continue to pursue some of the things you started, maybe for your MS/PhD research, which is always really rewarding for me to see. I'm happy to continue offering input as you continue.
 
-Also, you all know each other by now, and you know that this is a friendly, open group. Nobody is judging you or your presentation. Let’s support each other and celebrate our collective accomplishments.
+You all know each other by now, and you know that this is a friendly, open, supportive group. Nobody is judging you or your presentation/repo. We all have a lot going on right now. Let’s support each other, offer constructive feedback, and celebrate our collective accomplishments.
 
 ### Final Exam Week: Repo Submission
 * Finalize your repository with notebooks, scripts and documentation
-    * Can use README, notebooks, or separate markdown to summarize methods, results, conclusions, lessons learned and future work
+    * Can use README, notebooks, or separate markdown files to summarize methods, results, conclusions, lessons learned and future work
+    * Clean up old or unused files (can remove or create an `old` subdirectory and move files there)
+    * Update the README with information about the notebooks used during processing and provide a clear indication of which notebooks contain the final results
+      * Help someone who is unfamiliar with your project quickly find the good stuff! 
 * Submit the Github url for your final project repo on Canvas before midnight on Friday of final exam week
+* Optional: make your repo visible to the world! Just need to switch from private to public visibililty:
+   * From the "Settings" tab, scroll down to the Danger Zone and click "Change Visibility"
+   * Select "Make Public" and type the repo name in the prompt
+   * Share the url with others!
 
 ## Sample project ideas
 Please review examples from previous years in the UW GDA Github organization.

@@ -19,12 +19,29 @@
 1. Discuss questions and issues with others during lab and on Slack
 1. Rember to `git add` and `git commit` your modified files as you make progress to record "checkpoints" in your work
 
-A few general thoughts on the labs:
-* Remember, this is not a race!  Take your time as you work through these in groups and for homework.  Read the background information and instructions, follow links to documentation, read or at least skim some of the external resources.  Try to work toward improving your understanding rather than rushing to find an answer to all questions as quickly as possible. 
-* I’ve spent a fair amount of time attempting to prepare instructions that are clear and at the right level (offering hints, but not telling you exactly what to do).  I also update, correct and improve the instructions every year based on student questions and common sticking points.  So I really appreciate it when people ask for clarification, offer suggestions, fixes for typos, etc.
-* As you work, remember to include periodic sanity checks.  It’s relatively easy to produce a plot or calculate a number, but try to stop and ask yourself if it actually makes sense based on what you expect and general knowledge.  
-   * For example: Several students had latitude and longitude backwards on initial plots in Lab 03 (a common mistake, one that I still occasionally make).  When you make a plot, check axes, and ask yourself, is it possible to have points at a latitude of -125°? (ah, no, as this exceeds -90° latitude at the south pole)
-* When preparing the exercises notebooks, I remove most of the code, but I preserve a subset of plots and other output.  These are intended to help you check your own output - not a substitute for sanity checks, but hopefully helpful to keep you on the right track.
+#### Important Notes on Assignments
+* This is not a race!
+   * Take your time as you work through these in groups and for homework. 
+   * Read the background information and instructions, follow links to documentation, read or at least skim some of the external resources. 
+   * Try to work toward improving your understanding rather than rushing to find an answer to all questions as quickly as possible. 
+* Following instructions vs. thinking and coming up with your own solution
+   * I’ve spent a fair amount of time attempting to prepare instructions that are clear and at the right level (offering hints, but not telling you exactly what to do).
+   * I update, correct and improve the instructions every year based on student questions and common sticking points.
+   * I really appreciate it when people ask for clarification, offer suggestions, fixes for typos, etc.
+* Sanity checks
+   * As you work, remember to include periodic sanity checks.
+   * It’s relatively easy to produce a plot or calculate a number, but try to stop and ask yourself if it actually makes sense based on what you expect and general knowledge.  
+   * For example, several students had latitude and longitude backwards on initial plots in Lab 03 (a common mistake, one that I still occasionally make).  When you make a plot, check axes, and ask yourself, is it possible to have points at a latitude of -125°? (ah, no, as this exceeds -90° latitude at the south pole)
+* Sample code and output
+   * When preparing the exercises notebooks, I remove most of the code, but I preserve a subset of plots and other output.
+   * These are intended to serve as a guide, help you check your own output, and keep you on the right track - not a substitute for doing your own sanity checks.
+   * These are not the “correct” answer or a plot that you must reproduce! Many are quick plots that I generated using personal preferences/habits, and they can contain mistakes or other issues that should be fixed.  
+   * Rather than reproduce sample output, try to create plots/output that you think offers the best answer or visualization for the task/question. Better yet, make a plot that improves upon what I included! 
+   * And if your answer differs from mine, but you are confident, back it up with some justification. You’re probably right! You’re all smart and collectively will notice things that I missed, and I will gladly update the solutions notebook to avoid confusion in future years. Thanks!
+* Getting help
+   * If you’re confused or uncertain about something, please ask! 
+   * Post questions or comments on the relevant Slack channel for the lab (e.g., #lab03)
+   * I really appreciate it when people follow up because they genuinely want to understand something, rather than just producing some output and quickly moving on to the next question (though I understand there’s only so much time, and lots of content).
 
 ## Submitting Completed Assignments
 ### 1. Prepare Jupyter notebook for submission
