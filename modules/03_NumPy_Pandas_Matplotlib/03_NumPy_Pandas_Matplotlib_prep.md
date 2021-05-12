@@ -29,9 +29,10 @@ https://jakevdp.github.io/PythonDataScienceHandbook/. You should have previously
 * Work through some of the interactive examples, and explore new concepts (don't just shift-Enter as quickly as possible)
 * The section on Machine Learning with Scikit-Learn is also great, but not required for this course
 
-### (Optional) Matplotlib Usage Guide
+### (Optional) Matplotlib Doc
 * https://matplotlib.org/3.1.1/tutorials/introductory/usage.html
    * Can skip the "interactive" mode
+* https://github.com/matplotlib/cheatsheets
 
 ## Assignment (due Friday)
 * Complete above reading/tutorials
