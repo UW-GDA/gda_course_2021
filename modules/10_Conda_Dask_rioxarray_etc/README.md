@@ -21,24 +21,26 @@ We made it to Week 10! No formal assignment this week, so please use the time to
 
 ### rioxarray
 * https://corteva.github.io/rioxarray/stable/index.html 
+* https://corteva.github.io/rioxarray/stable/examples/reproject.html
 
 ### Dask
 * https://docs.dask.org/en/latest/array-best-practices.html 
-* https://github.com/pangeo-data/pangeo-tutorial/blob/agu2019/notebooks/dask.ipynb
+* https://gallery.pangeo.io/repos/pangeo-data/pangeo-tutorial-gallery/dask.html
 
 ### Pangeo (http://pangeo.io/)
 > "A community platform for Big Data geoscience"
-* Examples: https://gallery.pangeo.io/ 
 
-Excellent tutorials from December 2019 AGU Fall meeting:
-* https://github.com/pangeo-data/pangeo-tutorial/blob/agu2019/README.md
+https://gallery.pangeo.io/ 
 
 Take a look at the rendered pangeo notebooks on Github (you can also clone the repo to our jupyterhub/locally if desired, or access through binder or their pangeo AWS hub).  I recommend you work through the xarray and dask notebooks in the top-level directory and the amazon-web-services/landsat8.ipynb notebook.
 
 One thing that I forgot to mention - if you are using the pangeo hub, when you are done running notebooks, please go to **File->Shut Down**.  This will free up the node allocated to you, and stop the clock on the cloud charges.  If you forget, it’s OK, your server should automatically time out and shut down, but best to be a good citizen here and avoid unnecessary resource consumption
 
+#### Glaciology examples
+* https://gallery.pangeo.io/repos/ldeo-glaciology/pangeo-glaciology-examples/index.html
+
 #### Landsat-8 time series
-* https://github.com/pangeo-data/pangeo-tutorial/blob/agu2019/notebooks/amazon-web-services/landsat8.ipynb
+* https://gallery.pangeo.io/repos/pangeo-data/landsat-8-tutorial-gallery/index.html
     * Launch on AWS hub
     * In-class demo of using Dask KubeCluster for scaleable processing
 
